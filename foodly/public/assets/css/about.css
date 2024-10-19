@@ -1,0 +1,410 @@
+
+
+*{
+
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Dosis', sans-serif;
+  color: #666666;
+  font-size: 15px;
+  line-height: 1.80857;
+  background-color: #fffefe;
+}
+a{
+  color: #1f1f1f;
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0;
+  font-weight: normal;
+  position: relative;
+  padding: 0 0 10px 0;
+  font-weight: normal;
+  line-height: 120% !important;
+  color: #1f1f1f;
+  margin: 0 
+}
+h1 {
+  font-size: 24px 
+}
+h2 {
+  font-size: 22px 
+}
+h3 {
+  font-size: 18px 
+}
+h4 {
+  font-size: 16px 
+}
+h5 {
+  font-size: 14px 
+}
+h6 {
+  font-size: 13px 
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  margin-top: 3vh;
+}
+                 /* start nav */
+                .pin{
+                  position: fixed; 
+                  top: 0;
+                  width: 100%;
+                  z-index: 1000;
+                  background-color: #fffefe;;
+                  opacity: 0.9;
+                  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+                  border-bottom-left-radius: 10px;
+                  border-bottom-right-radius: 10px;
+              }
+              #logo
+              {
+              
+              margin-right: 80%;
+              color: #d03816;    
+              font-size: 35px;
+              line-height: 80px;
+              font-weight: bold;
+              padding: 0 100px;
+              text-transform: uppercase;
+              cursor: pointer;
+              }
+              .navbar
+              {
+                  position: fixed; 
+                  top: 0;
+                  left: 0;
+                  margin-left: 550px;
+                  margin-top: 3vh;
+                  display: flex;
+                  font-size: 18px;
+                  padding: 7px 13px;
+                  border-radius: 8px;
+                  justify-content: center;
+                  text-transform: uppercase; 
+              }
+              .navbar > * {
+                  margin: 0 8px;
+              }
+              a.nav-link{
+                  color: #d03816;
+              }
+              .navbar a:hover
+              {
+                  color: #d03816;
+                  transition: .5s;
+                  font-size: 20px;
+                  transition: 0.3s;
+              }
+              .navbar-header .user {
+                  font-size: 18px;
+                  color: #000;
+                  margin: 0 5px;
+                  cursor: pointer;
+                  transition: 0.3s;
+                  position: fixed; 
+                  top: 0;
+                  right: 0;
+                  margin-right: 90px;
+                  margin-top: 3vh;
+                  display: flex;
+              }
+              .navbar-header .user i{
+                  margin: 10px;
+              }
+              .navbar-header .user i:hover{
+                  color: #d03816;
+                  font-size: 20px;
+                  transition: 0.3s;
+              }
+
+.head{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+}
+.head h1{
+  font-size: 40px;
+  color: #f3a703;
+  margin-bottom: 25px;
+  position: relative;
+}
+.head h1::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  display: flex;
+  margin: 0 auto;
+  background-color: orange;
+}
+.head p{
+  font-size: 23px;
+  color: #666;
+  margin-bottom: 35px;
+}
+.container {
+  position: static;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  gap:1% ;
+}
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.img{
+  display: block;
+  margin: left 2111px;
+  overflow: hiden;
+  width: 40%;
+}
+
+.img img{
+  max-width: 90%;
+  height: auto;
+  display: block;
+  transition: 0.5s ease;
+  border-radius: 10px;
+}
+.img:hover img{
+  transform: scale(1.2);
+}
+.content{
+  flex: 1;
+}
+.content h2{
+  font-size: 20px;
+  margin-bottom: 14px;
+  color: #333;
+}
+.content p{
+  font-size: 20px;
+  line-height: 1.5;
+  color: #666;
+  text-align: justify;
+}
+.content .more{
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 15px;
+  transition: 0.3s ease;
+  background-color: orangered;
+}
+.content .more:hover{
+  background-color: green;
+}
+
+.head{
+  margin-top: 6%;
+  margin-bottom: 2%;
+}
+
+
+/*Start Team*/
+
+.team{
+  width: 100%;
+  height: 90vh;
+  margin-top: 100px;
+
+}
+
+.team h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+
+.team h1 span{
+  color: #d03816;
+  font-family: Ink Free;
+  margin-left: 15px;
+
+}
+
+.team h1 span::after{
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #d03816;
+  display: block;
+  position: relative;
+  bottom: 15px;
+}
+
+.team .team_box{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 13%;
+}
+
+.team .team_box .profile{
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  transition: 0.4s;
+}
+
+.team .team_box .profile:hover{
+  border-radius: 20px;
+  height: 320px;
+}
+
+.team .team_box .profile img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  z-index: 2;
+  transition: 0.4s;
+}
+
+.team .team_box .profile:hover img{
+  border-radius: 20px;
+  margin-top: -230px;
+}
+
+.team .team_box .profile .info{
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  transition: 0.4s;
+}
+
+.team .team_box .profile:hover .info{
+  top: 60%;
+}
+
+.team .team_box .profile .info .name{
+  color: #d03816;
+  margin-bottom: 15px;
+}
+
+.team .team_box .profile .info .bio{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto 10px auto;
+}
+
+.team .team_box .profile .info .team_icon i{
+  margin: 10px 5px 5px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.team .team_box .profile .info .team_icon i:hover{
+  color: #d03816;
+}
+
+          /*End Team*/
+
+            /* stat footer */
+            footer{
+              width: 100%;
+              padding: 30px 0 0 20px;
+              background: #21262b;
+          }
+          
+          footer .footer_main{
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          }
+          
+          footer .footer_main .footer_tag{
+              text-align: center;
+          }
+          
+          footer .footer_main .footer_tag h2{
+              color: #d9d9d9;
+              margin-bottom: 25px;
+              font-size: 30px;
+          }
+          
+          footer .footer_main .footer_tag p{
+              margin: 10px 0;
+          }
+          
+          footer .footer_main .footer_tag i{
+              margin: 0 5px;
+              cursor: pointer;
+          }
+          
+          footer .footer_main .footer_tag i:hover{
+              color: #d03816;
+          }
+          
+          footer p{
+              color: #989696;
+          }
+
+          footer .end{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding: 15px;
+          }
+          
+          footer .end span{
+              color: #d03816;
+              margin-left: 10px;
+          }
+          
+          ::-webkit-scrollbar{
+              width: 13px;
+          }
+          
+          ::-webkit-scrollbar-track{
+              border-radius: 15px;
+              box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+          }
+          
+          ::-webkit-scrollbar-thumb{
+              background: #d03816;
+              border-radius: 15px;
+          }
+
+

@@ -1,0 +1,105 @@
+.bodyUlogreg{
+    background-image: url("https://images.pexels.com/photos/326281/pexels-photo-326281.jpeg?cs=srgb&dl=pexels-pixabay-326281.jpg&fm=jpg");
+    background-size: 100%;
+    height: 800px;
+    padding-top: 30px;
+}
+.form{
+    width: 450px;
+    height: 620px;
+    border-radius: 20px;
+    margin-top: 100px ;
+    margin-bottom: 100px ;
+    margin-left: 42%;
+    background: rgba(255, 255, 255, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.7px);
+    -webkit-backdrop-filter: blur(4.1px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+}
+
+.T1A2{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    border: 1px solid #ff5722;
+    border-radius: 30px;
+    outline: none;
+    opacity: 80%;
+    text-align: center;
+}
+
+#forgot{
+    margin-left: 190px;
+    margin-top: -10px;
+    height: 35px;
+}
+#forgotLink{
+    color: rgb(202, 160, 131);
+    text-decoration: none;
+    font-size: larger;
+}
+#forgotLink:hover{
+    color: blue;
+}
+
+#RMBR{
+    color: rgb(195, 201, 212);
+    text-align: center;
+    font-size: 26px;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    margin-left: 125px;
+}
+#RM{
+    margin-left: 10px;
+    border: 1px solid #ff5722;
+    color: #00ba;
+    font-size: 30px;
+    outline: none;
+}
+
+#ST{
+background-color: #ff5722;
+opacity: 80%;
+width: 150px;
+height: 40px;
+margin-left: 150px;
+border: 1px solid #ff5722;
+border-radius: 30px;
+color: white;
+font-size: 28px;
+margin-top: 20px;
+outline: none;
+}
+
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+#Or{
+    text-align: center;
+    width: 30px;
+    margin: -19px auto 10px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 80%;
+}
+
+
+#ST:hover{
+    color: black;
+    background-color: rgb(12, 136, 12);
+    cursor: pointer;
+}
+#have{
+    font-size: x-large;
+    text-align: center;
+    color: rgb(196, 189, 189);
+}
+#Link{
+    color: rgb(0, 221, 29);
+    text-decoration: none;
+}

@@ -1,0 +1,5 @@
+------------------ Dashboard--------------------
+
+http://localhost/foodly/Dashboard/views/customers/
+http://localhost/foodly/Dashboard/views/items/
+http://localhost/foodly/Dashboard/views/ingredients/

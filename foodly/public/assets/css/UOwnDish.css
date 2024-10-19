@@ -1,0 +1,320 @@
+* {
+    margin: 0px  ;
+    padding: 0px ;
+    min-height: 0 !important;
+    box-sizing: border-box !important;
+    list-style: none;
+    font-family:"Poppins", sans-serif;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-family: "Dosis", sans-serif;
+    color: #666666;
+    font-size: 15px;
+    line-height: 1.80857;
+    background-color: #f8f8f8;
+}
+.carousel-indicators img{
+width: 100%;
+height: 100%;
+}
+ul{
+    padding-left: 0px ;
+    margin-bottom: 0px;
+    justify-content: space-around !important;
+}
+
+.StepHeader {
+    margin-top: 8vh;
+    width: 100%;
+    height: 58vh;
+    background-image: url("../Images/Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    /* border: 5px solid salmon; */
+}
+.StepHeader .Steps{
+padding-top: 14vh;
+margin-left: 40%;
+}
+.StepHeader .Steps button {
+    margin-top: 2vh;
+    display: block;
+    font-family:  Ink Free;
+    font-size: larger;
+    color: #F8F8F8 ;
+    background-color: #d03816;
+    border-color: #d03816;
+}
+.StepHeader .Slider{
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    display: none;
+    justify-content: space-around;
+    position: relative;
+}
+.StepHeader .Slider #HideSteps{
+    background-color: #d03816;
+    border-color: #d03816;
+    position: absolute;
+    top:3vh;
+    left: 85%;
+    font-family:  Ink Free;;
+    width: 12%;
+    z-index: 3;
+}
+.carousel-item{
+    position: relative ;
+}
+.StepHeader #StepText,#StepText2,#StepText3,#StepText4,#StepText5{
+position: absolute;
+top:8vh;
+left: 30%;
+justify-content: center;
+font-size: 20px;
+font-family:  Ink Free;;
+z-index: 1;
+}
+.StepHeader #StepText2,#StepText3{
+ top: 3.5vh;
+ left: 8%;
+ }
+ .StepHeader #StepText4{
+    top:4vh;
+ }
+ .StepHeader #StepText5{
+    top: 37vh;
+ }
+.Slider .carousel-item img{
+width: 100%;
+margin-top: 2vh;
+height: 48vh;
+border-radius: 25px;
+}
+/* Selection Navbar*/
+.NavSelection {
+    width: 100%;
+    padding: 4vh 10%;
+    height: 16vh;
+}
+
+.NavSelection ul {
+    width: 90%;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.NavSelection ul li {
+    height:6vh;
+    width: 18%;
+    color: #d03816;
+    font-weight: 550;
+    text-transform: uppercase;
+    padding-top: 1vh;
+    text-align: center;
+    cursor: pointer;
+}
+.NavSelection ul li:hover {
+    background-color: #d03816;
+    color: #f8f8f8;
+    border-radius: 25px;
+}
+/* Dish Body */
+.DishesSide {
+    margin-top: 2vh;
+    width: 55%;
+    height: 200vh;
+    float: left;
+}
+/* Bill Body */
+.BillSide {
+    margin-top: 5vh;
+    margin-left: 3%;
+    width: 38%;
+    height: 204vh;
+    float: right;
+}
+ /* Dish Body */
+.DishesSide {
+    margin-top: 2vh;
+    width: 55%;
+    height: 200vh;
+    float: left;
+}
+/* Bill Body */
+.BillSide {
+    margin-top: 5vh;
+    margin-left: 3%;
+    width: 38%;
+    height: auto;
+    float: right;
+}
+ /* Each Type Body*/
+.DishesSide .Dish {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 55vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+/*Detail Container Details*/
+.DishesSide .Dish .Class ,.DishesSide .Dish .DishDetail{
+    background-color: #f8f8f8;
+    margin: 12vh 5%;
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+    float: left;
+    font-size: larger;
+    text-align: center;
+    display: none;
+}
+.DishesSide .Dish .DishDetail{
+    margin: 8vh 5%;
+    width:50%;
+    /* height: 96%; */
+    position: relative;
+    color: #d03816;
+}
+.DishesSide .Dish .Class .TypeCont {
+    cursor: pointer;
+}
+.DishesSide .Dish .DishDetail .DishDetailCont .Selected{
+    margin:5px 0;
+    font-size: 20px;
+}
+.DishDetail .DishDetailCont .Selected,.DishDetail .DishDetailCont .Uprice
+,.DishDetail .DishDetailCont .Ucala,.DishDetail .DishDetailCont .TotalPrice
+{
+    color: #292828;
+}
+.DishDetail .DishDetailCont .TotalPrice{
+    display: inline-block;
+}
+.DishesSide .Dish .DishDetail  .DishDetailCont .Size{
+    cursor: pointer;
+}
+.DishesSide .Dish .DishDetail .btn-primary{
+    background-color: #d03816;
+    border-color: #d03816;
+}
+.DishesSide .Dish .DishDetail .DishDetailCont .Detail{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Order Frame*/
+.DishesSide .DishDetail .Order-frame,.showBill .Order-frame2{
+    width: 100%;
+    border-radius: 20px;
+    background-image: linear-gradient(329.39deg, #1C1E53 -5.96%, rgba(28, 30, 83, 0.42) 105.96%) !important;
+    height: 100%;
+    padding-top: 8%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+#Return ,#Confirm{
+    display: inline;
+    width: 40%;
+    font-size: smaller;
+    margin-right: 5%;
+}
+.Order-frame .Udish,.Order-frame .AddTPrice,.Order-frame .Size{
+    color: #292828;
+}
+/* Dish in bill*/
+.DishinBill,.DishinBill{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content:space-around;
+}
+.DishinBill{
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.showBill .orderlisthead{
+    color: #d03816;
+    }
+.DishinBill p{
+    padding-top: 2vh;
+}
+/* Show bill*/
+.showBill{
+    background-image: url('../Images/Bill/1.png');
+    border-image-slice: fill;
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 2vh;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display:none;
+}
+.showBill .Bill{
+    width: 65%;
+    margin-left: 18%;
+    padding-top: 5vh;
+    background-color: #F8F8F8;
+    text-align: center;
+}
+.BillSide #showBillButt,.Bill .btn-primary{
+    margin-top: 5vh;
+    margin-left: 25%;
+    width: 35%;
+    display: block;
+    font-family:  Ink Free;
+    font-size: larger;
+    color: #f8f8f8;
+    background-color: #d03816;
+    border-color: #d03816;
+    display: none;
+}
+.BillSide .btn-primary{
+    display: inline;
+    font-size: smaller;
+    margin-top: 2vh;
+    margin-left: 5%;
+    width: 40%;
+}
+.showBill .Order-frame2{
+    color: #d03816;
+    height: auto;
+    padding-top: 10vh;
+    text-align: center;
+}
+.showBill .Order-frame2 .Order{
+    display: grid;
+    color: #f8f8f8;
+    grid-template-columns:  1fr 1fr 1fr;
+    justify-content:space-between;
+}
+
+.showBill .Order-frame2 .Fcart{
+    background-color: #d03816;
+    border-color: #d03816;
+    width: 30%;
+}
+.cardorder{
+background:transparent;
+color: white;
+border: none;
+}
+.showBill .Order-frame2 .total{
+    text-align: center;
+    padding-left: 15%;
+}
+
+.cont{
+    height: 320vh;
+}

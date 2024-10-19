@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+*, ::before, ::after { box-sizing: border-box; }
+.body{
+  font-family:'Quicksand', sans-serif;
+  text-align:center;
+  line-height:1.5em;
+/*   background:#E0E4CC; */
+}
+.Navmenu {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  margin-top: 11.5vh;
+}
+.navm {
+  margin-top: 10px;
+}
+.navm ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navm li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.navm li:last-child {
+  margin-right: 0;
+}
+.navm a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+}
+ img{
+  width: 259px;
+  height: 194px;
+  border-radius: 20px;
+
+  }
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.menu-item {
+  width: 30%;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+hr {
+  border:none;
+  background:#E0E4CC;
+  height:1px;
+/*   width:60%;
+  display:block;
+  margin-left:0; */
+}
+.container {
+  max-width: 1800px;
+  margin: 0.25em 1em auto;
+  background:#FFF;
+  padding:50px;
+  border-radius:5px;
+}
+.productcont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+
+}
+.product {
+  padding:1em;
+  border:1px solid #E0E4CC;
+  margin-right:1em;
+  border-radius:5px;
+}
+.cart-container {
+  border:1px solid #E0E4CC;
+  border-radius:5px;
+  margin-top:3em;
+  padding:1em;
+  width: 30%;
+}
+button, input[type="submit"] {
+    border:1px solid #FA6900;
+    color:#fff;
+    background: #F38630;
+    padding:0.6em 1em;
+    font-size:1em;
+    line-height:1;
+    border-radius: 1.2em;
+    transition: color 0.2s ease-in-out,  background 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+button:hover, button:focus, button:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+    background: #A7DBD8;
+    border-color:#69D2E7;
+    color:#000;
+    cursor: pointer;
+}
+table {
+  margin-bottom:1em;
+  border-collapse:collapse;
+}
+table td, table th {
+  text-align:left;
+  padding:0.25em 1em;
+  border-bottom:1px solid #E0E4CC;
+}
+#carttotals {
+  margin-right:0;
+  margin-left:auto;
+}
+.cart-buttons {
+  width:auto;
+  margin-right:0;
+  margin-left:auto;
+  display:flex;
+  justify-content:flex-end;
+  padding:0.5em 0;
+}
+#emptycart {
+  margin-right:1em;
+}
+table td:nth-last-child(1) {
+  text-align:right;
+}
+.message {
+  border-width: 1px 0px;
+  border-style:solid;
+  border-color:#A7DBD8;
+  color:#679996;
+  padding:0.5em 0;
+  margin:1em 0;
+}
+
+
