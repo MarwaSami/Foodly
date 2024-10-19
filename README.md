@@ -1,4 +1,4 @@
-# [Foodly]((https://github.com/MarwaSami/Foodly))
+[Foodly]((https://github.com/MarwaSami/Foodly))
 # Language was written
 * HTML and CSS
 * Javascript
